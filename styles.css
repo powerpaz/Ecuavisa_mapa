@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#map {
+  width: 100%;
+  height: 95vh;
+}
+
+#controls {
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  position: absolute;
+  z-index: 1000;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+#amieFilter {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#applyFilter {
+  padding: 5px 10px;
+  border: none;
+  background-color: #1db954;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#applyFilter:hover {
+  background-color: #159a44;
+}
