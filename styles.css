@@ -1,0 +1,12 @@
+body{margin:0;font-family:Arial,Helvetica,sans-serif}
+header{background:#0b3d2e;color:#fff;text-align:center;padding:12px 10px;font-weight:700}
+#controls{background:#f5f5f5;padding:8px;display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap}
+#controls input{padding:6px;width:240px}
+#filterBtn{background:#28a745;color:#fff;border:none;padding:7px 12px;cursor:pointer;border-radius:6px}
+#clearBtn{background:#6c757d;color:#fff;border:none;padding:7px 12px;cursor:pointer;border-radius:6px}
+#map{height:84vh;width:100%}
+#legend{position:absolute;bottom:20px;right:20px;background:#fff;padding:8px 10px;border-radius:6px;font-size:13px;box-shadow:0 2px 6px rgba(0,0,0,.2)}
+.dot{height:10px;width:10px;background:red;border-radius:50%;display:inline-block;margin-right:6px;border:1px solid #b30000}
+.popup-table{border-collapse:collapse;width:260px}
+.popup-table td{border-bottom:1px solid #eee;padding:4px 6px;font-size:12px;vertical-align:top}
+.popup-table td.key{color:#555;font-weight:600;width:40%}
